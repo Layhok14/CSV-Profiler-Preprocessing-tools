@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build CSV Tool",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-I", "../include",
+                "-Wall", "-g",
+                "main.c", "fileio.c", "stats.c", "view.c","preprocess.c","export.c","Investigate.c"
+                ,"data_preparation.c",
+                "-o", "csv_tool.exe",
+                "-lm"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src_code"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

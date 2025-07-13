@@ -1,0 +1,7 @@
+Column,Non-NULL Count,Type,Min,Max,Mean,StdDev
+book-title,214,string,,,,
+author,211,string,,,,
+star,206,float,0.00,5.00,4.12,1.17
+buyers,207,int,0.00,8309.00,314.76,794.29
+cover,211,string,,,,
+price $,202,float,0.00,190.00,39.06,27.23

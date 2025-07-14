@@ -42,7 +42,7 @@ int main() {
         printf("[1] View data: head(num), tail(num)\n");
         printf("[2] View stats: info, stat\n");
         printf("[3] Investigate: column, count_isna(col), na_count, find_outlier()\n");
-        printf("[4] Clean data (Preprocess): isna, find_na, fill_na, drop_na, convert_to_num\n");
+        printf("[4] Clean data (Preprocess): isna, find_na, fill_na, drop_na\n");
         printf("[5] Prepare Data: bucket_col(), outlier_detection(), scale_to_range(col,a,b)\n");
         printf("[6] Quit\n");
         printf("Enter choice: ");
@@ -132,7 +132,6 @@ int main() {
                 printf("[b] find_na(col)\n");
                 printf("[c] fill_na(col, value)\n");
                 printf("[d] drop_na(col)\n");
-                printf("[e] convert_to_num(col)\n");
                 printf("[x] Exit to Main Menu\n");
                 printf("Enter choice: ");
                 fgets(choice, sizeof(choice), stdin);
